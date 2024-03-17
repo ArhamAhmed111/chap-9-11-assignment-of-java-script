@@ -179,35 +179,35 @@
 
 //Question 11
 
-// var firstNum = +prompt("Enter your First Num");
-// document.write(`Your first num is : ${firstNum}<br>`);
-// var secondNum = +prompt("Enter your Second Num");
-// document.write(`Your second num is : ${secondNum}<br>`);
-// var operator = prompt("Enter your Operator");
-// document.write(`Your operation is ${firstNum} ${operator} ${secondNum}<br> `);
+var firstNum = +prompt("Enter your First Num");
+document.write(`Your first num is : ${firstNum}<br>`);
+var secondNum = +prompt("Enter your Second Num");
+document.write(`Your second num is : ${secondNum}<br>`);
+var operator = prompt("Enter your Operator");
+document.write(`Your operation is ${firstNum} ${operator} ${secondNum}<br> `);
 
-// if (
-//   operator === "+" ||
-//   operator === "-" ||
-//   operator === "*" ||
-//   operator === "/" ||
-//   operator === "%"
-// ) {
-//   if (operator === "+") {
-//     document.write(`Your Answer is ${firstNum + secondNum}`);
-//   }
-//   if (operator === "-") {
-//     document.write(`Your Answer is ${firstNum - secondNum}`);
-//   }
-//   if (operator === "*") {
-//     document.write(`Your Answer is ${firstNum * secondNum}`);
-//   }
-//   if (operator === "/") {
-//     document.write(`Your Answer is ${firstNum / secondNum}`);
-//   }
-//   if (operator === "%") {
-//     document.write(`Your Answer is ${firstNum % secondNum}`);
-//   }
-// } else {
-//   alert("Invalid operator please use +,-,*,/,%");
-// }
+if (
+  operator === "+" ||
+  operator === "-" ||
+  operator === "*" ||
+  operator === "/" ||
+  operator === "%"
+) {
+  if (operator === "+") {
+    document.write(`Your Answer is ${firstNum + secondNum}`);
+  }
+  if (operator === "-") {
+    document.write(`Your Answer is ${firstNum - secondNum}`);
+  }
+  if (operator === "*") {
+    document.write(`Your Answer is ${firstNum * secondNum}`);
+  }
+  if (operator === "/") {
+    document.write(`Your Answer is ${firstNum / secondNum}`);
+  }
+  if (operator === "%") {
+    document.write(`Your Answer is ${firstNum % secondNum}`);
+  }
+} else {
+  alert("Invalid operator please use +,-,*,/,%");
+}
